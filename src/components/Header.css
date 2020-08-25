@@ -1,0 +1,46 @@
+.header {
+  margin-bottom: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+.navbar__logo img {
+  width: 20rem;
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.navbar__item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.navbar__link {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  transition: all 0.2s;
+  color: #333;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar__userName {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  transition: all 0.2s;
+  color: rgb(244, 128, 33);
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.navbar__link:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #3795da;
+}
